@@ -1,0 +1,76 @@
+.text__align__right {
+	text-align: right;
+	margin: 2px;
+}
+.floatalign_text_right {
+	text-align:right; 
+	float: right;
+}
+.floatalign_text_left {
+	text-align:left;
+	float: left;
+}
+.user__img {
+	border:none; 
+	width:40px;
+	height:40px;
+	float: left;	
+	border: 2px solid #57378C;
+}
+.asterisk:after {
+    content:"*" ;
+    color:red;    
+}
+.customerwalkrequest {
+	margin-top: 25px;
+}
+.walk_request_button {
+	text-align: center; 
+}
+.float__right {
+	float: right;
+}
+.left_right_margin {
+	margin-left: 0;
+	margin-right: 0;
+}
+.blue__color__icon {
+	color: #3C8DBC;
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 1.5em;
+}
+.input_padding
+{
+	padding-right: 0px;
+}
+.ads_input
+{
+	padding:0px;
+}
+.ads_radio
+{
+	padding-top: 7px;
+}
+.logo_edit_file
+{
+	padding-left: 9px;
+	padding-top: 15px;
+}
+.logo_edit_label
+{
+	padding-left: 24px;
+	padding-top: 15px;
+}
+.feedback_div
+{
+	padding-bottom: 10px;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    vertical-align: middle;
+}
+.user_name {
+	background: #fff300;border-radius: 13px;padding: 3px 10px;font-weight: 600;
+}
+.yellow-cir {
+	background: #fff300;border-radius: 13px;padding: 5px 10px;font-weight: 600;
+}

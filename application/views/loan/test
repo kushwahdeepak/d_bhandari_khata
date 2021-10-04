@@ -1,0 +1,115 @@
+<div class="content-wrapper" style="min-height: 564px;">
+    <section class="content-header">
+        <h1>
+            Loan Overview
+           
+        </h1>
+    </section>
+    <section class="content">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box box-primary">
+                    <div class="box-body">
+                        <div class="row">
+                            <div class="box-body">
+                                <strong style="font-size: 20px;">Personal Info:</strong>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <div class="user_list">
+                                                <table id="" class="table table-bordered table-hover dataTable no-footer">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center">customer image </th>
+                                                            <th class="text-center">Customer Name</th>
+                                                            <th class="text-center">Customer Contact</th>
+                                                            <th class="text-center">Address</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center" ><?php print_r($data['image']); ?></td>
+                                                            <td class="text-center" > <?php print_r($data['name']); ?></td>
+                                                            <td> <?php print_r($data['contacts']); ?></td>
+                                                            <td> <?php print_r($data['location']); ?></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            <strong style="font-size: 20px;">Security Info:</strong>
+                                                <table id="" class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center">Security</th>
+                                                            <!-- <th class="text-center">Security Item</th> -->
+                                                            <th class="text-center">Itam Name</th>
+                                                            <th class="text-center">Waight</th>
+                                                            <th class="text-center">Purity</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center" ><?php print_r($data['security_details']); ?></td>
+                                                            <!-- <td class="text-center" ><?php print_r($data['security_item']); ?></td> -->
+                                                            <td class="text-center" ><?php print_r($data['security_item_name']); ?></td>
+                                                            <td class="text-center" > <?php print_r($data['security_item_weight']); ?> gram</td>
+                                                            <td class="text-center" > <?php print_r($data['security_item_purity']); ?>%</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            <strong style="font-size: 20px;">loan Info:</strong>
+                                                <table id="" class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center">Loan Date</th>
+                                                            <th class="text-center">Amount</th>
+                                                            <th class="text-center">Percentage</th>
+                                                            <th class="text-center">Payable Type</th>
+                                                            <th class="text-center">Amount with Intrest </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                           <td class="text-center" ><?php print_r($data['created_date']); ?></td>
+                                                           <td class="text-center" ><?php print_r($data['amount']); ?> </td>
+                                                           <td class="text-center" ><?php print_r($data['percentage']); ?></td>
+                                                           <td class="text-center" ><?php print_r($data['payable_type']); ?></td>
+                                                           <td class="text-center" ><?php print_r($data['loan_intrest']); ?></td>
+                                                           <!-- <td class="text-center" ><?php print_r($data['total_loan']); ?></td> -->
+
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                                        <strong style="font-size: 20px;"> Total loan Info:</strong>
+
+                                            <table id="" class="table table-bordered table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th  class="text-center" >No. of Loans</th>
+                                                        <th class="text-center" >Total Loan Amount </th>
+                                                        <th class="text-center" >status</th> 
+                                                        <th class="text-center" >status</th> 
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                       <td class="text-center" ><?php print_r($data['no_of_loan']); ?></td>
+                                                       <td class="text-center" ><?php print_r($data['total_loan']); ?></td>
+                                                       <td class="text-center"><?php print_r($data['total_loan']); ?></td>
+                                                       <td class="text-center"><?php print_r($data['total_loan']); ?></td>
+
+
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+</div>
